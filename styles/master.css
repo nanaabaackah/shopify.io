@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root{
+    --dark: ;
+    --light: ;
+    --border: ;
+    --other: ;
+    --back: #fff;
+
+    color: #000;
+    font-family: 'Lora', serif;
+
+}
+
+body{
+    
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+h1{
+    font-size: 2em;
+    margin-left: 3em;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    margin-left: 5em;
+    margin-top: 5em;
+}
+#box textarea{
+    font-size: 1.2em;
+}
+#box label{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#buttons{
+    width: fit-content;
+    position: relative;
+    float: right;
+}
+
+#buttons button{
+    padding: 1em 2em;
+    margin: 1em;
+    color: var(--back);
+    background-color: orangered;
+    border-radius: 0.5em;
+}
+
+#buttons button:hover{
+    background-color: #b83201;
+}
+
+.fetch{
+    margin: 1em;
+    margin-left: 7em;
+    background-color: lightgray;
+    padding: 1em;
+    border-radius: 1em;
+}

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <script src="index.js"></script>
+        <script src="scripts/request.js"></script>
+        <script src="scripts/generate.js"></script>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Front End Assessment</title>
@@ -9,17 +10,23 @@
     </head>
     <body>
         <main>
-            <h1>Fun with GPT - 3</h1>
             <section>
-                <div>
+                <div id="box">
                     <label for="textbox">Enter Prompt</label>
                     <textarea name="textbox" id="textbox" cols="100" rows="15"></textarea>
                 </div>
-                <div>
+                <div id="buttons">
                     <button type="reset" name="clear" id="clear">Clear</button>
                     <button type="submit" name="submit" id="submit" >Submit</button>
                 </div>
-
+            </section>
+            <section>
+                <div>
+                    <h1>Responses</h1>
+                    <div class="fetch">
+                        
+                    </div>
+                </div>
             </section>
         </main>
         <footer>
